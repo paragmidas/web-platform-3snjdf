@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #16243d;
+  --dark-link-color: #97a2b7;
+  --blue: #015fc9;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 0;
+  color: var(--dark-link-color);
+}
+
+header li {
+  margin-right: 30px;
+}
+
+header ul {
+  margin-bottom: 0 !important;
+  padding-left: 0;
+}
+
+.header-icons {
+  color: var(--blue);
+}
+
+.social li a {
+  color: #fff;
+}
+
+.navbar {
+  padding: 30px 0;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar-nav {
+  background-color: #f2f5f9;
+  border-radius: 8px 0 0 8px;
+}
+
+.nav-link {
+  padding: 18px 24px !important;
+}
+
+.logo {
+  margin-right: 44px;
+}
+
+.quote {
+  color: #fff !important;
+  border-radius: 0 8px 8px 0;
+}
+
+.phone-icon {
+  color: #0ce0ff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  border: 2px solid #97a2b7;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.phone {
+  color: #16243d;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
