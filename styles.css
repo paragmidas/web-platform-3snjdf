@@ -82,3 +82,34 @@ header ul {
   font-weight: bold;
   margin-bottom: 0;
 }
+
+.carousel {
+  background-color: #f3f3f6;
+}
+
+.carousel,
+.carousel-item {
+  height: 680px;
+}
+
+.item-1 {
+  background: url(https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-1-1.jpg)
+    no-repeat right center;
+}
+
+.carousel-caption {
+  color: #16243d;
+  left: 10%;
+  top: 100px;
+  text-align: left;
+}
+
+.btn-primary {
+  background-color: #015fc9 !important;
+  padding: 20px 40px;
+}
+
+.carousel-control-prev {
+  color: red;
+  font-size: 30px;
+}
